@@ -12,8 +12,6 @@ if (!isset($_GET['error'])) {
   $error = $_GET['error'];
 }
 
-$docroot = getenv("DOCUMENT_ROOT");
-echo $docroot;
 ?>
 
 <!DOCTYPE html>

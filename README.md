@@ -6,19 +6,19 @@
 
 3. Stuff/Tools used:
 
-- HTML, CSS (Responsive, Media Queries and Animation included)
-- Bootstrap 5.1.3
-- Vanilla JS (Main Frontend)
-- jQuery
-- AJAX (To send the data to php)
-- php (Main Backend)
+   - HTML, CSS (Responsive, Media Queries and Animation included)
+   - Bootstrap 5.1.3
+   - Vanilla JS (Main Frontend)
+   - jQuery
+   - AJAX (To send the data to php)
+   - php (Main Backend)
 
 4. I will include the things below which you might to look into if you are trying to replicate it in your own local server and database:
 
-a. Make changes inside the conn.php file
-Directory: ques 1\php\logic\conn.php
+   a. Make changes inside the conn.php file
+   Directory: ques 1\php\logic\conn.php
 
-b.
+   b.
 
 ## STEPS TO PRODUCE RESULT OF QUES 1 DEVELOPMENT SERVER :
 

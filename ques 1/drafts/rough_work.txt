@@ -1,0 +1,51 @@
+------------------------------------------------------------
+------------------------------------------------------------
+// #region Show Modal Box for payments/orders (SELECT * query)
+// Get the modal
+let payModal = document.getElementById("payModal");
+let ordModal = document.getElementById("ordModal");
+
+// Get the button that opens the modal
+let payBtn = document.getElementById("payHistory");
+let ordBtn = document.getElementById("ordHistory");
+
+// Get the <span> element that closes the modal
+let paySpan = document.getElementsByClassName("payClose")[0];
+let ordSpan = document.getElementsByClassName("ordClose")[0];
+
+// When the user clicks on the button, open the modal
+payBtn.onclick = function () {
+  payModal.style.display = "block";
+  ordModal.style.display = "none";
+};
+ordBtn.onclick = function () {
+  ordModal.style.display = "block";
+  payModal.style.display = "none";
+};
+
+// When the user clicks on <span> (x), close the modal
+paySpan.onclick = function () {
+  payModal.style.display = "none";
+};
+
+ordSpan.onclick = function () {
+  ordModal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+// window.onclick = function (event) {
+//   if (event.target == payModal) {
+//     payModal.style.display = "none";
+//     ordModal.style.display = "none";
+//   } else if (event.target == ordModal) {
+//     payModal.style.display = "none";
+//     ordModal.style.display = "none";
+//   }
+// };
+// #endregion
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+
+

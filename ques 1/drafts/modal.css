@@ -1,0 +1,46 @@
+/* The Modal (background) */
+.modal {
+  position: fixed;
+  z-index: 100;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: none;
+  overflow-x: auto;
+  overflow-y: auto;
+  border: 10px solid #7e7e7e;
+  background: #212529;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  padding-top: 0 !important;
+  /* background-color: #fefefe; */
+  background: none !important;
+  margin: 2% auto;
+  /* border: 3px solid #888; */
+  width: 90% !important;
+  height: auto !important;
+}
+
+/* The Close Button */
+.payClose,
+.ordClose {
+  position: absolute;
+  left: 0;
+  width: 2rem;
+  height: 1.8rem;
+  font-size: 22.2px;
+  color: red;
+  background: white;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+
+.payClose:hover,
+.payClose:focus,
+.ordClose:hover,
+.ordClose:focus {
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1.3);
+}

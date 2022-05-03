@@ -1,0 +1,395 @@
+/* #region Template CSS */
+.card-big-shadow {
+  min-width: 300px;
+  position: relative;
+}
+
+.coloured-cards .card {
+  margin-top: 30px;
+}
+
+.card[data-radius="none"] {
+  border-radius: 0px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #ffffff;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.card[data-background="image"] .title,
+.card[data-background="image"] .stats,
+.card[data-background="image"] .category,
+.card[data-background="image"] .description,
+.card[data-background="image"] .content,
+.card[data-background="image"] .card-footer,
+.card[data-background="image"] small,
+.card[data-background="image"] .content a,
+.card[data-background="color"] .title,
+.card[data-background="color"] .stats,
+.card[data-background="color"] .category,
+.card[data-background="color"] .description,
+.card[data-background="color"] .content,
+.card[data-background="color"] .card-footer,
+.card[data-background="color"] small,
+.card[data-background="color"] .content a {
+  color: #ffffff;
+}
+
+.card.card-just-text .content {
+  /* padding: 50px 65px; */
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.card .content {
+  padding: 20px 20px 10px 20px;
+}
+
+.card[data-color="blue"] .category {
+  color: #7a9e9f;
+}
+
+.card .category,
+.card .label {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.card-big-shadow:before {
+  background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: -12%;
+  content: "";
+  display: block;
+  left: -12%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+h4,
+.h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+h6,
+.h6 {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card .description {
+  font-size: 16px;
+  color: #66615b;
+}
+
+.content-card {
+  margin-top: 30px;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/*======== COLORS ===========*/
+.card[data-color="blue"] {
+  background: #b8d8d8;
+}
+
+.card[data-color="blue"] .description {
+  color: #506568;
+}
+
+.card[data-color="green"] {
+  background: #d5e5a3;
+}
+
+.card[data-color="green"] .description {
+  color: #60773d;
+}
+
+.card[data-color="green"] .category {
+  color: #92ac56;
+}
+
+.card[data-color="yellow"] {
+  background: #ffe28c;
+}
+
+.card[data-color="yellow"] .description {
+  color: #b25825;
+}
+
+.card[data-color="yellow"] .category {
+  color: #d88715;
+}
+
+.card[data-color="brown"] {
+  background: #d6c1ab;
+}
+
+.card[data-color="brown"] .description {
+  color: #75442e;
+}
+
+.card[data-color="brown"] .category {
+  color: #a47e65;
+}
+
+.card[data-color="purple"] {
+  background: #baa9ba;
+}
+
+.card[data-color="purple"] .description {
+  color: #3a283d;
+}
+
+.card[data-color="purple"] .category {
+  color: #5a283d;
+}
+
+.card[data-color="orange"] {
+  background: #ff8f5e;
+}
+
+.card[data-color="orange"] .description {
+  color: #772510;
+}
+
+.card[data-color="orange"] .category {
+  color: #e95e37;
+}
+/* #endregion */
+
+/* #region My css */
+
+/* #region Sections and Compartments */
+nav {
+  background: transparent !important;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal-yes-notif,
+.modal-no-notif {
+  width: 93.8%;
+  height: 40vh;
+}
+
+.modal-yes-notif {
+  top: 23%;
+}
+
+.modal-no-notif {
+  top: 21.7%;
+}
+
+section:last-of-type {
+  display: contents;
+}
+
+section:last-of-type > div:first-child {
+  margin: 0 2rem;
+}
+
+section:last-of-type div > .sec1,
+section:last-of-type div > .sec2,
+section:last-of-type div > .sec3 {
+  width: 30%;
+  height: 138px;
+  background: #212529;
+}
+
+section div.col.py-3:first-child {
+  padding: 0;
+  margin-left: 2rem;
+}
+section div.col.py-3:last-child {
+  padding: 0;
+  margin-right: 2rem;
+}
+
+.table.table-striped.border-light {
+  width: 90%;
+  margin: 2% 5%;
+}
+
+.table th.no_records_th {
+  color: #dd3d3d !important;
+  font-size: 2rem;
+  text-align: center;
+}
+/* #endregion */
+
+/* #region RGB Lights / Gradients */
+.gradient-border {
+  --borderWidth: 4px;
+  position: relative;
+  border-radius: var(--borderWidth);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.gradient-border:after {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  /* border-radius: calc(2 * var(--borderWidth)); */
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+.gradient-logo {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    white,
+    cyan,
+    orange,
+    yellow,
+    orange,
+    red
+  );
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* #endregion */
+
+/* #region Fonts */
+h1.main-title {
+  font-family: "Permanent Marker", cursive;
+  cursor: pointer;
+}
+
+nav h4 {
+  border-radius: 0;
+  outline: 0;
+  transform: scale(1.012);
+  text-align: center;
+}
+
+h5.payOrder:after {
+  height: calc(125% + var(--borderWidth) * 2);
+}
+
+span.text-uppercase.display-6 {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.sec1 > span.text-warning {
+  position: relative;
+  bottom: 10%;
+  right: 0.5%;
+}
+
+footer a.gradient-logo {
+  font-weight: bold;
+}
+/* #endregion */
+
+/* #region Buttons */
+.bg-dark .btn {
+  width: 105px;
+}
+/* #endregion */
+
+/* #region Footer always at the end */
+*,
+*::after,
+*::before {
+  /* margin: 0;
+    padding: 0; */
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  /* align-items: center; */
+  /* background-color: #f1f2f3;
+    display: -webkit-box;
+    display: -ms-flexbox; */
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+footer,
+nav {
+  background-color: black;
+  color: white;
+  /* padding: 1rem 0; */
+  padding: 0.2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* #endregion */ /* #endregion */

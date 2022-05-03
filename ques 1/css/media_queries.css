@@ -1,0 +1,67 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  section:first-of-type {
+    flex-direction: column !important;
+  }
+
+  .sec1 > span.text-warning {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    top: 3%;
+  }
+
+  .sec1 form#delete_all_form {
+    display: block !important;
+    margin-top: 1rem;
+  }
+
+  .modal-yes-notif,
+  .modal-no-notif {
+    top: 0 !important;
+    width: 86.5% !important;
+    height: 52vh !important;
+  }
+
+  section div.col.py-3 {
+    margin: 0 !important;
+  }
+
+  section:last-of-type > div > .sec1,
+  section:last-of-type > div > .sec2,
+  section:last-of-type > div > .sec3 {
+    padding-top: 20px !important;
+    height: 205px !important;
+  }
+
+  div.bg-dark div.w-auto.h-auto {
+    flex-direction: column !important;
+  }
+
+  div.mr-0.bg-dark.text-center > div.w-auto.h-auto.d-flex {
+    height: auto !important;
+  }
+
+  button#payHistory,
+  button#ordHistory,
+  button[name="paymentBtn"],
+  button[name="orderBtn"] {
+    margin-top: 0.5rem;
+  }
+}

@@ -1,4 +1,4 @@
-## STEPS TO PRODUCE RESULT OF QUES 1 IN LOCAL SERVER :
+## STEPS TO PRODUCE RESULT OF q1 IN LOCAL SERVER :
 
 1. Make sure you have the REQUIRED stuff/programs installed (given at the end).
 
@@ -17,11 +17,11 @@
 4. I will include the things below which you might to look into if you are trying to replicate it in your own local server and database:
 
    a. Make changes inside the conn.php file
-   Directory: ques 1\php\logic\conn.php
+   Directory: q1\php\logic\conn.php
 
    b.
 
-## STEPS TO PRODUCE RESULT OF QUES 1 DEVELOPMENT SERVER :
+## STEPS TO PRODUCE RESULT OF q1 DEVELOPMENT SERVER :
 
 1. Just visit this link below lol.
    Link:

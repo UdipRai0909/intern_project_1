@@ -12,6 +12,7 @@
    - jQuery
    - AJAX (To send the data to php)
    - php (Main Backend)
+   - Heroku (to deploy the site)
 
 4. I will include the things below which you might to look into if you are trying to replicate it in your own local server and database:
 
@@ -38,3 +39,6 @@
 
 4. GIT (for pushing the project to GitHub)
    https://git-scm.com/downloads
+
+5. Node js (to work with npm)
+   https://nodejs.org/en/

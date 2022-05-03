@@ -163,24 +163,16 @@
       <span class="text-uppercase display-6 text-decoration-underline">History</span>
       <br />
 
-      <!-- <button id="payHistory" type="button" class="mx-1 btn btn-primary border border-light" onclick="window.open('http://localhost/projects/diagonal%20intern/q1/php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
-        Payments
-      </button> -->
-
-      <!-- <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('http://localhost/projects/diagonal%20intern/q1/php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
-        Orders
-      </button> -->
-
       <button id="payHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('https://udip1.herokuapp.com/q1//php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
+        onclick="window.open('./php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
         Payments
       </button>
 
       <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('https://udip1.herokuapp.com/q1/php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
+        onclick="window.open('./php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
         Orders
       </button>
+
 
     </div>
 

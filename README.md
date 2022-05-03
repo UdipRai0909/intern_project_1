@@ -19,12 +19,12 @@
    a. Make changes inside the conn.php file
    Directory: q1\php\logic\conn.php
 
-   b.
+   b. Adapt, Overcome, Improvise and try to debug yourself
 
 ## STEPS TO PRODUCE RESULT OF q1 DEVELOPMENT SERVER :
 
 1. Just visit this link below lol.
-   Link:
+   Link: https://udip1.herokuapp.com/
 
 ## REQUIRED:
 

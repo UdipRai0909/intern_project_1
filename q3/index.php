@@ -5,17 +5,18 @@ require_once '../q1/php/includes/_main_head.php';
 ?>
 
 <!-- The text field -->
-<div id="question3">
-  <div class="my_nav_logo">
+<div class="container" id="question3">
+  <div class="my_nav_logo row">
     <a href="../">
       <img src="<?= $img ?>" width="120" height="115" alt="My Nav Logo">
     </a>
     <h2>Task 3: Lets Solve</h2>
   </div>
   <p id="msg">Double click to copy</p>
-  <button id="copy-btn" class="btn-copy-me" onclick="copyCode()">Copy code</button>
+  <button id="copy-btn" class="btn btn-copy-me" onclick="copyCode()">Copy code</button>
   <h1 class="btn-copy-me">Question</h1>
-  <pre>
+  <div class="row">
+    <pre>
       <code>
 <b>John is a programmer. He treasures his time very much. He lives on
 the n floor of a building. Every morning he will go downstairs as quickly as
@@ -42,9 +43,11 @@ d: The seconds required when John walks to n-1 or n+1 floor
 Please help John to calculate the shortest time to go downstairs.
       </code>
     </pre>
-  </p>
+    </p>
+  </div>
   <h1 class="btn-copy-me">Answer</h1>
-  <pre>
+  <div class="row">
+    <pre>
       <code id="copy-code">
 const findShortestTime = (n, m, speed) => {
   let walk, walkAndElevator, elevator;
@@ -126,8 +129,9 @@ findShortestTime(7, 6, [3,1,1,4]);
 
 
 
-      </code>
+</code>
 </pre>
+  </div>
 </div>
 
 <!-- The button used to copy the text -->

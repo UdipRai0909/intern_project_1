@@ -68,7 +68,7 @@ p#msg {
 #copy-btn {
   z-index: 100;
   position: relative;
-  left: 37.5%;
+  left: 36.5%;
   box-sizing: border-box;
   background-color: #482ff7;
   color: #fff;
@@ -121,12 +121,13 @@ p#msg {
 }
 
 h1.btn-copy-me {
-  width: 200px;
+  width: 250px;
   padding: 18px 0;
   position: relative;
   top: 3%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 2rem;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-align: center;

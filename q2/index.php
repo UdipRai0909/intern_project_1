@@ -10,7 +10,7 @@ require_once '../q1/php/includes/_main_head.php';
     <a href="../">
       <img src="<?= $img ?>" width="120" height="115" alt="My Nav Logo">
     </a>
-    <h2>Task 3: Lets Solve</h2>
+    <h2>Task 2: Lets Debug</h2>
   </div>
   <p id="msg">Double click to copy</p>
   <button id="copy-btn" class="btn-copy-me" onclick="copyCode()">Copy code</button>

@@ -166,15 +166,8 @@ require_once './php/includes/_header.php';
       <br />
 
       <div class="d-flex historyTab justify-content-center align-items-center">
-        <?php
-        $table1 = 'Payments';
-        require_once 'php/includes/payment_list.php';
-        ?>
-
-        <?php
-        $table2 = 'Orders';
-        require_once 'php/includes/order_list.php';
-        ?>
+        <?php require_once 'php/includes/payment_list.php'; ?>
+        <?php require_once 'php/includes/order_list.php'; ?>
       </div>
     </div>
 

@@ -37,26 +37,8 @@ efficiency.
 Feel free to change code structure and variable names as you
 see fit.</i>
 </b>
-
-<b>1. Waiting the elevator from m floor to n floor;</b>
-1a. Or take the stairs to m floor;
-2. Waiting the elevator open the door and go in;
-3. Waiting the elevator close the door;
-4. Waiting the elevator down to 0 floor;
-5. Waiting the elevator open the door and go out;
-(the time of go in/go out the elevator will be ignored)
-
-<b>Given the following arguments:</b>
-n: An integer. The floor of John(0-based).
-m: An integer. The floor of the elevator(0-based).
-speeds: An array of integer. It contains four integer [a,b,c,d]
-a: The seconds required when the elevator rises or falls 1 floor
-b: The seconds required when the elevator open the door
-c: The seconds required when the elevator close the door
-d: The seconds required when John walks to n-1 or n+1 floor
-Please help John to calculate the shortest time to go downstairs.
-      </code>
-    </pre>
+   </code>
+  </pre>
   </div>
   </p>
   <h1 class="btn-copy-me">Answer</h1>

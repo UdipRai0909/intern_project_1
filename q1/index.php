@@ -1,7 +1,7 @@
 <?php
 require_once './php/includes/_header.php';
 require_once './php/logic/conn.php';
-phpinfo();
+// phpinfo();
 
 // Variable to store 'get all the records' from tables -> 'payments' & 'orders'
 $payments = $crud->getpayments();

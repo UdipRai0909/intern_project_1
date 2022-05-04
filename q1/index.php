@@ -1,5 +1,6 @@
 <?php
 require_once './php/includes/_header.php';
+// require_once './php/logic/conn.php';
 ?>
 
 <!-- Menu section -->
@@ -166,8 +167,15 @@ require_once './php/includes/_header.php';
       <br />
 
       <div class="d-flex historyTab justify-content-center align-items-center">
-        <?php require_once 'php/includes/payment_list.php'; ?>
-        <?php require_once 'php/includes/order_list.php'; ?>
+        <?php
+        $table1 = 'Payments';
+        include 'php/includes/payment_list.php';
+        ?>
+
+        <?php
+        $table2 = 'Orders';
+        include 'php/includes/order_list.php';
+        ?>
       </div>
     </div>
 

@@ -26,7 +26,7 @@ $payments = $crud->getpayments();
       <div class="db-table">
         <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
         <h1 class="main-title gradient-border">
-          <span class="text-decoration-none text-white">History (Payments/ Orders)</span>
+          <span class="text-decoration-none text-white"><?= $table1 ?></span>
         </h1>
         <table class="table table-striped table-dark border border-light">
           <thead>

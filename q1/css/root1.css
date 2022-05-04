@@ -14,11 +14,6 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  height: 100%;
-}
-
 body {
   /* margin: 0;
   background: var(--background);
@@ -128,7 +123,7 @@ p#msg {
 
 h1.btn-copy-me {
   width: 250px;
-  padding: 18px 0;
+  padding: 10px 0;
   position: relative;
   top: 3%;
   left: 50%;

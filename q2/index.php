@@ -5,8 +5,8 @@ require_once '../q1/php/includes/_main_head.php';
 ?>
 
 <!-- The text field -->
-<div id="question2">
-  <div class="my_nav_logo">
+<div class="container" id="question2">
+  <div class="my_nav_logo row">
     <a href="../">
       <img src="<?= $img ?>" width="120" height="115" alt="My Nav Logo">
     </a>
@@ -15,7 +15,8 @@ require_once '../q1/php/includes/_main_head.php';
   <p id="msg">Double click to copy</p>
   <button id="copy-btn" class="btn-copy-me" onclick="copyCode()">Copy code</button>
   <h1 class="btn-copy-me">Question</h1>
-  <pre>
+  <div class="row">
+    <pre>
       <code>
 <b>A cricket player gets a contract of 3 years to play for a
 team in IPL. He has an option to choose how he want to get
@@ -56,9 +57,11 @@ d: The seconds required when John walks to n-1 or n+1 floor
 Please help John to calculate the shortest time to go downstairs.
       </code>
     </pre>
+  </div>
   </p>
   <h1 class="btn-copy-me">Answer</h1>
-  <pre>
+  <div class="row">
+    <pre>
       <code id="copy-code">
 const formulatePayment = (choice, amount) => {
   const initialPay = ((10 / 100) * amount).toFixed(2);
@@ -107,6 +110,7 @@ console.log(formulatePayment("weekly", 5000));
 console.log(formulatePayment("monthly", 5000));
       </code>
 </pre>
+  </div>
 </div>
 
 <!-- The button used to copy the text -->

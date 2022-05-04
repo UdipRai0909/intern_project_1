@@ -1,19 +1,19 @@
 <?php
 
 // local Database Connection (Development)
-// $host = '127.0.0.1';
-// $db = 'food_menu';
-// $user = 'root';
-// $pass = '';
-// $charset = 'utf8mb4';
+$host = '127.0.0.1';
+$db = 'food_menu';
+$user = 'root';
+$pass = '';
+$charset = 'utf8mb4';
 
 
 // // Remote Database Connection (Production)
-$host = 'db4free.net';
-$db = 'food_menu';
-$user = 'udiprai1';
-$pass = 'udiprai1';
-$charset = 'utf8mb4';
+// $host = 'db4free.net';
+// $db = 'food_menu';
+// $user = 'udiprai1';
+// $pass = 'udiprai1';
+// $charset = 'utf8mb4';
 
 $conn = "mysql:host=$host;dbname=$db;charset=$charset";
 

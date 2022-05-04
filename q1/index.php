@@ -1,16 +1,4 @@
-<?php require_once './php/includes/_header.php';
-
-$base = str_replace(
-  $_SERVER['DOCUMENT_ROOT'],
-  '',
-  realpath(dirname(__FILE__))
-);
-
-// $base = ($base == '') ? '/' : '';
-$payLink = $base . '\payment_list.php?table_name=Payments ';
-$ordLink = $base . '\order_list.php?table_name=Orders ';
-
-?>
+<?php require_once './php/includes/_header.php'; ?>
 
 <!-- Menu section -->
 <section>
@@ -184,11 +172,11 @@ $ordLink = $base . '\order_list.php?table_name=Orders ';
         Orders </button> -->
 
       <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('http://localhost/intern_project_1/q1/php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
+        onclick="window.open('php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
         Payments </button>
 
       <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('http://localhost/intern_project_1/q1/php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
+        onclick="window.open('php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
         Orders </button>
 
     </div>

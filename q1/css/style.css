@@ -321,7 +321,6 @@ h5.payOrder:after {
 }
 
 span.text-uppercase.display-6 {
-  font-size: 1.5rem;
   width: 95%;
   display: flex;
   justify-content: center;
@@ -335,13 +334,6 @@ span.text-uppercase.display-6 {
 
 footer a.gradient-logo {
   font-weight: bold;
-}
-/* #endregion */
-
-/* #region Buttons */
-.bg-dark .btn {
-  width: 90px;
-  font-size: 0.8rem;
 }
 /* #endregion */
 

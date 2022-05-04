@@ -10,7 +10,7 @@
     rel="stylesheet">
   <link rel="icon" href="./q1/img/udip_logo.png" type="image/x-icon" />
   <link rel="stylesheet" href="./q1/css/root1.css">
-  <title>Document</title>
+  <title>Diagonal Intern Assessment</title>
 </head>
 
 <body>

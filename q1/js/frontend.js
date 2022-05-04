@@ -47,4 +47,12 @@ localStorage.setItem("totalPrice", total);
 
 // #endregion
 
+function payWindow() {
+  $link = document.getElementById("windowPayId").innerHTML;
+  window.open($link);
+}
 
+function orderWindow() {
+  $link = document.getElementById("windowOrdId").innerHTML;
+  window.open($link);
+}

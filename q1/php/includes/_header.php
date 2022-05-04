@@ -53,7 +53,7 @@ if (!isset($_GET['error'])) {
         </a>
       </div>
       <div class="me-4">
-        <span class="text-danger d-flex justify-content-center p-1">Click on the logo to go to the root page</span>
+        <span class="text-danger d-flex justify-content-center p-1">Try clicking on logo</span>
 
         <h1 class="main-title gradient-border">
           <span class="text-decoration-none text-white">Diagonal Cafeteria</span>

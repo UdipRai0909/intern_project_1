@@ -27,10 +27,17 @@
   <!-- #endregion -->
 </head>
 
+<style>
+.gradient-border {
+  padding: 0.2rem rem;
+  text-align: center;
+}
+</style>
+
 <body>
   <!-- Main part -->
   <main>
-    <nav class="me-5 pe-5">
+    <nav class="mt-3 me-5 pe-4">
       <div class="my_nav_logo">
         <a href="javascript:void(0)">
           <img src="../../img/udip_logo.png" width="100" height="95" alt="My Nav Logo">

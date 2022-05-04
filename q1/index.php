@@ -163,7 +163,7 @@ $orders = $crud->getOrders();
       </span>
 
       <form id="delete_all_form" method="POST" class="d-inline">
-        <button id=" deleteAll" class="mx-1 mb-5 btn btn-danger border border-light">Delete All</button>
+        <button id=" deleteAll" class="mx-1 mb-5 btn btn-danger border border-light">Eraser</button>
       </form>
     </div>
 

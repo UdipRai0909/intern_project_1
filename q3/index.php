@@ -126,9 +126,6 @@ findShortestTime(7, 6, [3,1,1,4]);
 
 // Pure walk would have taken 7×4 = 28; pure elevator would have taken 1×3 +
 // 1 + 1 + 7×3 + 1 = 27.
-
-
-
 </code>
 </pre>
   </div>

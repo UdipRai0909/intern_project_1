@@ -1,4 +1,7 @@
-<?php require_once './php/includes/_header.php'; ?>
+<?php
+require_once './php/includes/_header.php';
+require_once './php/logic/conn.php';
+?>
 
 <!-- Menu section -->
 <section>
@@ -163,22 +166,17 @@
       <span class="text-uppercase display-6 text-decoration-underline">History</span>
       <br />
 
-      <!-- <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('http://localhost/projects/diagonal%20intern/q1/php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
-        Payments </button>
+      <div class="d-flex historyTab justify-content-center align-items-center">
+        <?php
+        $table1 = 'Payments';
+        include 'php/includes/payment_list.php';
+        ?>
 
-      <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('http://localhost/projects/diagonal%20intern/q1/php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
-        Orders </button> -->
-
-      <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
-        Payments </button>
-
-      <button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light"
-        onclick="window.open('php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
-        Orders </button>
-
+        <?php
+        $table2 = 'Orders';
+        include 'php/includes/order_list.php';
+        ?>
+      </div>
     </div>
 
     <div class="sec3 mr-0 bg-dark p-2 text-center">

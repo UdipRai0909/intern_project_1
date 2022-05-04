@@ -1,16 +1,33 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .page-wrapper.pay,
+  .page-wrapper.order {
+    margin-top: 0.5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   span.text-uppercase.display-6 {
     font-size: 1.3rem !important;
   }
 
-  .bg-dark .btn {
-    width: 78.8px !important;
-    font-size: 0.7rem !important;
+  .historyTab {
+    flex-direction: column;
+  }
+
+  .db-table table th,
+  .db-table table td {
+    font-size: 0.5rem;
+  }
+
+  .page-wrapper button {
+    width: 105px !important;
+    margin-right: 2rem;
   }
 }
 
@@ -22,15 +39,16 @@
 @media only screen and (min-width: 1200px) {
 }
 
+@media only screen and (min-width: 993px) {
+  .page-wrapper.order {
+    margin-left: 0.19rem !important;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   span.text-uppercase.display-6 {
     font-size: 2rem;
-  }
-
-  .bg-dark .btn {
-    width: 105px !important;
-    font-size: 1rem !important;
   }
 
   section:first-of-type {
@@ -75,10 +93,23 @@
     height: auto !important;
   }
 
-  button#payHistory,
-  button#ordHistory,
+  .page-wrapper,
   button[name="paymentBtn"],
   button[name="orderBtn"] {
     margin-top: 0.5rem;
+    width: 105px !important;
+    font-size: 1rem !important;
+  }
+
+  .historyTab {
+    flex-direction: column;
+  }
+
+  .page-wrapper button {
+    width: 105px !important;
+  }
+
+  .page-wrapper.order {
+    margin-left: 0 !important;
   }
 }

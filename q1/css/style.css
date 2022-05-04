@@ -232,7 +232,7 @@ section div.col.py-3:last-child {
 
 .table th.no_records_th {
   color: #dd3d3d !important;
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 /* #endregion */

@@ -19,7 +19,7 @@
    a. Make changes inside the conn.php file
    Directory: q1\php\logic\conn.php
 
-   b. Adapt, Overcome, Improvise and try to debug yourself
+   b. Adapt, Overcome, Improvise and try to debug yourself, King.
 
 ## STEPS TO PRODUCE RESULT OF q1 DEVELOPMENT SERVER :
 

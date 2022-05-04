@@ -46,6 +46,17 @@ ordSpan.onclick = function () {
 ------------------------------------------------------------
 ------------------------------------------------------------
 
+# popup window
+
+<button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light" onclick="window.open('php/includes/payment_list.php?table_name=Payments','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
+  <a href="#modal" role="button" class="button button__link">Modal Trigger</a>
+  Payments </button>
+
+<button id="ordHistory" type="button" class="mx-1 btn btn-primary border border-light" onclick="window.open('php/includes/order_list.php?table_name=Orders','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">
+  Orders </button>
+
+------------------------------------------------------------
+------------------------------------------------------------
 
 
 

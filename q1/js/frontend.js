@@ -56,3 +56,15 @@ function orderWindow() {
   $link = document.getElementById("windowOrdId").innerHTML;
   window.open($link);
 }
+
+$(".trigger1").on("click", function () {
+  $(".modal-wrapper.pay").toggleClass("open");
+  $(".page-wrapper.pay").toggleClass("blur-it");
+  return false;
+});
+
+$(".trigger2").on("click", function () {
+  $(".modal-wrapper.order").toggleClass("open");
+  $(".page-wrapper.order").toggleClass("blur-it");
+  return false;
+});

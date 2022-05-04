@@ -37,6 +37,7 @@ if (!isset($_GET['error'])) {
   <!-- Personal / Custom CSS -->
   <link rel="stylesheet" href="./css/checkbox.css" />
   <link rel="stylesheet" href="./css/media_queries.css" />
+  <link rel="stylesheet" href="./css/modal1.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <!-- #endregion -->
 </head>

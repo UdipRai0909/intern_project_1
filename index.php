@@ -11,7 +11,7 @@ require_once './q1/php/includes/_main_head.php';
         <img src="./q1/img/udip_logo.png" alt="Root 1 Logo">
       </li>
       <li class="question-info">
-        <a href="javascript:void(0)">Click on the question numbers</a>
+        <a href="javascript:void(0)">Question Numbers</a>
       </li>
       <li class="list-item">
         <a href="./q1/" class="split-text" data-text="1">1</a>

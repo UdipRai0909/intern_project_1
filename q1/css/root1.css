@@ -175,8 +175,8 @@ pre {
 
 .question-info a:first-child {
   font-family: "Staatliches", cursive;
-  font-size: 3rem;
-  color: #fff;
+  font-size: 2.5rem;
+  color: #acb3bd;
 }
 
 .question-info:nth-child(2) {

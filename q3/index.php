@@ -6,7 +6,7 @@ require_once '../q1/php/includes/_main_head.php';
 
 <!-- The text field -->
 <div class="container" id="question3">
-  <div class="my_nav_logo row">
+  <div class="my_nav_logo">
     <a href="../">
       <img src="<?= $img ?>" width="120" height="115" alt="My Nav Logo">
     </a>

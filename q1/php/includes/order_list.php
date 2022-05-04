@@ -6,6 +6,9 @@ require_once '../logic/conn.php';
 // Variable to store 'get all the records' from tables -> 'orders'
 $orders = $crud->getOrders();
 
+ini_set('display_errors', 1);
+error_reporting(-1);
+
 ?>
 
 <table class="table table-striped table-dark border border-light">

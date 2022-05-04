@@ -66,6 +66,7 @@ p#msg {
 }
 
 #copy-btn {
+  z-index: 100;
   position: relative;
   left: 37.5%;
   box-sizing: border-box;

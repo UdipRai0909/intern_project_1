@@ -64,6 +64,8 @@ a.btn {
   background: #fff;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 .modal-wrapper.open .modal {

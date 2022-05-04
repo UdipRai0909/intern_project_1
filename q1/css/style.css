@@ -213,7 +213,7 @@ section:last-of-type div > .sec2,
 section:last-of-type div > .sec3 {
   width: 30%;
   height: 138px;
-  background: #212529;
+  background: rgba(0, 0, 0, 0.5) !important;
 }
 
 section div.col.py-3:first-child {
@@ -243,7 +243,7 @@ section div.col.py-3:last-child {
   position: relative;
   border-radius: var(--borderWidth);
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 0.2rem 1rem;
 }
 
 .gradient-border:after {
@@ -337,7 +337,7 @@ footer a.gradient-logo {
 }
 /* #endregion */
 
-/* #region Footer always at the end */
+/* #region Normal */
 *,
 *::after,
 *::before {
@@ -365,6 +365,12 @@ body {
   /* background-color: #f1f2f3;
     display: -webkit-box;
     display: -ms-flexbox; */
+  background-image: url("../img/batman_theme.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {

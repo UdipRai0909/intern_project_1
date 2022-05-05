@@ -11,6 +11,7 @@ require_once './q1/php/includes/_main_head.php';
         <img src="./q1/img/udip_logo.png" alt="Root 1 Logo">
       </li>
       <li class="question-info">
+        <a href="https://github.com/UdipRai0909/intern_project_1.git" class="github btn btn-primary">Github Project</a>
         <a href="javascript:void(0)">Question Numbers</a>
       </li>
       <li class="list-item">

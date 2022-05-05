@@ -21,7 +21,7 @@
 
    b. Adapt, Overcome, Improvise and try to debug yourself, King.
 
-## STEPS TO PRODUCE RESULT OF q1 DEVELOPMENT SERVER :
+## STEPS TO PRODUCE THE SAME RESULT IN DEVELOPMENT SERVER :
 
 1. Just visit this link below lol.
    Link: https://udip1.herokuapp.com/

@@ -36,121 +36,12 @@ body {
   font-size: 1rem;
   /* align-items: center; */
 }
-
-div#question2,
-div#question3 {
-  background: rgba(255, 255, 255, 0.7);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 1rem 2rem;
-}
-
-.my_nav_logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 5rem;
-}
-.my_nav_logo a {
-  margin-right: 1rem;
-}
-
-div#question2 h2,
-div#question3 h2 {
-  font-size: 3rem;
-}
-
-p#msg {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: red;
-}
-
-#copy-btn {
-  z-index: 100;
-  position: relative;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  background-color: #482ff7;
-  color: #fff;
-  width: 180px;
-  min-height: 44px;
-  font-size: 1rem;
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 5px;
-  border: 0;
-  border-radius: 15px;
-  outline: none;
-  cursor: pointer;
-  user-select: none;
-  box-shadow: 13px 13px 20px #caced1, -13px -13px 20px #fff;
-}
-#copy-btn:before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  bottom: -20px;
-  left: 82px;
-  clip-path: polygon(50% 40%, 0% 100%, 100% 100%);
-}
-#copy-btn:after {
-  content: attr(tooltip);
-  width: 140px;
-  bottom: -48px;
-  left: 20px;
-  padding: 5px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-}
-#copy-btn:before,
-#copy-btn:after {
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  box-sizing: border-box;
-  background-color: #000;
-  color: #fff;
-  transform: translateY(-10px);
-  transition: all 300ms ease;
-}
-#copy-btn:hover:before,
-#copy-btn:hover:after {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-h1.btn-copy-me {
-  width: 250px;
-  padding: 10px 0;
-  position: relative;
-  top: 3%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 0;
-  background: #0b5e34;
-}
-
-pre {
-  background: #bb9e9e;
-  padding: 1rem 2rem;
-}
+/* #region Main Index Page */
 
 .list {
   margin: 0;
   padding: 0;
-  padding-top: 4rem;
+  padding-top: 3rem;
   list-style: none;
 }
 
@@ -249,4 +140,120 @@ pre {
 
 .list-item:hover::before {
   transform: scale(1);
+}
+/* #endregion */
+
+div#question2,
+div#question3 {
+  background: rgba(255, 255, 255, 0.7);
+  margin: 2.5rem 0;
+  padding: 1rem 2rem;
+}
+
+.my_nav_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+}
+.my_nav_logo a {
+  margin-right: 1rem;
+}
+
+div#question2 h2,
+div#question3 h2 {
+  font-size: 3rem;
+}
+
+p#msg {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: red;
+}
+
+#copy-btn1,
+#copy-btn2 {
+  z-index: 100;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #482ff7;
+  color: #fff;
+  width: 180px;
+  min-height: 44px;
+  font-size: 1rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 5px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 13px 13px 20px #caced1, -13px -13px 20px #fff;
+}
+#copy-btn1:before,
+#copy-btn2:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  bottom: -20px;
+  left: 82px;
+  clip-path: polygon(50% 40%, 0% 100%, 100% 100%);
+}
+#copy-btn1:after,
+#copy-btn2:after {
+  content: attr(tooltip);
+  width: 140px;
+  bottom: -48px;
+  left: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+#copy-btn1:before,
+#copy-btn2:before,
+#copy-btn1:after,
+#copy-btn2:after {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+  transform: translateY(-10px);
+  transition: all 300ms ease;
+}
+#copy-btn1:hover:before,
+#copy-btn2:hover:before,
+#copy-btn1:hover:after,
+#copy-btn2:hover:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h1.btn-copy-me {
+  width: 250px;
+  position: relative;
+  margin: 0 auto;
+  top: 1.8rem;
+  padding: 10px 0;
+  font-size: 2rem;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0;
+  background: #0b5e34;
+}
+
+pre {
+  background: #bb9e9e;
+  padding: 1rem 2rem;
 }

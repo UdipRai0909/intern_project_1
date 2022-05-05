@@ -4,7 +4,6 @@ $css = '../q1/css/root1.css';
 require_once '../q1/php/includes/_main_head.php';
 ?>
 
-<!-- The text field -->
 <div class="container" id="question2">
   <div class="my_nav_logo">
     <a href="../">
@@ -13,7 +12,7 @@ require_once '../q1/php/includes/_main_head.php';
     <h2>Task 2: Lets Debug</h2>
   </div>
   <p id="msg">Double click to copy</p>
-  <button id="copy-btn" class="btn-copy-me" onclick="copyCode()">Copy code</button>
+  <button id="copy-btn1" class="btn-copy-me" onclick="copyCode1()">Copy code</button>
   <h1 class="btn-copy-me">Question</h1>
   <div class="row">
     <pre>
@@ -27,23 +26,23 @@ the contract and remaining will be paid trough installments.
 The payment can be completed before the contract ends but
 cannot exceed more than contract period. Weekly payment can
 be multiple of 50 and monthly payment can be multiple of 100.
-
-<i>Example: if weekly amounts happens to be $122 round it to
+</b>
+Example: if weekly amounts happens to be $122 round it to
 $150. If monthly amounts happens to be $122 round it to
 $200.
 Here is the function which calculates the amount to be paid.
 Your task will be to find mistakes and improve the code
 efficiency.
 Feel free to change code structure and variable names as you
-see fit.</i></b>
-  </code>
+see fit.
+</code>
 </pre>
   </div>
   </p>
   <h1 class="btn-copy-me">Answer</h1>
   <div class="row">
     <pre>
-      <code id="copy-code">
+      <code id="copy-code1">
 const formulatePayment = (choice, amount) => {
   const initialPay = ((10 / 100) * amount).toFixed(2);
   const totalLeft = amount - initialPay;
@@ -106,8 +105,6 @@ console.log(`-------------------------------------------`);
 </pre>
   </div>
 </div>
-
-<!-- The button used to copy the text -->
 
 
 <?php require_once '../q1/php/includes/_main_foot.php'; ?>

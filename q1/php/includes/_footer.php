@@ -4,7 +4,7 @@
 <footer>
   <div class="pt-2">
     <p>
-      <strong>&copy; </strong> Copyright 2022 Udip Rai : Check me out @
+      Task 1: Lets Create &copy; Copyright @Udip :
       <a href="https://github.com/UdipRai0909" class="gradient-logo">GitHub</a>
     </p>
   </div>

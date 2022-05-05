@@ -47,16 +47,7 @@ localStorage.setItem("totalPrice", total);
 
 // #endregion
 
-function payWindow() {
-  $link = document.getElementById("windowPayId").innerHTML;
-  window.open($link);
-}
-
-function orderWindow() {
-  $link = document.getElementById("windowOrdId").innerHTML;
-  window.open($link);
-}
-
+// #region Modal Box for Payments/Orders History
 $(".trigger1").on("click", function () {
   $(".modal-wrapper.pay").toggleClass("open");
   $(".page-wrapper.pay").toggleClass("blur-it");
@@ -68,3 +59,4 @@ $(".trigger2").on("click", function () {
   $(".page-wrapper.order").toggleClass("blur-it");
   return false;
 });
+// #endregion

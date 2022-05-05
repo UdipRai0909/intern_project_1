@@ -3,9 +3,9 @@
 </script>
 
 <script>
-function copyCode() {
-  const textElement = document.getElementById("copy-code");
-  const copyButton = document.getElementById("copy-btn");
+function copyCode1() {
+  const textElement = document.getElementById("copy-code1");
+  const copyButton = document.getElementById("copy-btn1");
 
   const copyText = (e) => {
     window.getSelection().selectAllChildren(textElement);
@@ -19,7 +19,24 @@ function copyCode() {
 
   copyButton.addEventListener("click", (e) => copyText(e));
   copyButton.addEventListener("mouseover", (e) => resetTooltip(e));
+}
 
+function copyCode2() {
+  const textElement = document.getElementById("copy-code2");
+  const copyButton = document.getElementById("copy-btn2");
+
+  const copyText = (e) => {
+    window.getSelection().selectAllChildren(textElement);
+    document.execCommand("copy");
+    e.target.setAttribute("tooltip", "Copied! ✅");
+  };
+
+  const resetTooltip = (e) => {
+    e.target.setAttribute("tooltip", "Copy to clipboard");
+  };
+
+  copyButton.addEventListener("click", (e) => copyText(e));
+  copyButton.addEventListener("mouseover", (e) => resetTooltip(e));
 }
 </script>
 

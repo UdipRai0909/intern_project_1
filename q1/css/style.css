@@ -307,6 +307,7 @@ section div.col.py-3:last-child {
 h1.main-title {
   font-family: "Permanent Marker", cursive;
   cursor: pointer;
+  text-align: center;
 }
 
 nav h4 {
@@ -348,11 +349,11 @@ footer a.gradient-logo {
   outline: none;
 }
 
-html,
+/* html,
 body {
   width: 100%;
   height: 100%;
-}
+} */
 
 body {
   min-height: 100vh;

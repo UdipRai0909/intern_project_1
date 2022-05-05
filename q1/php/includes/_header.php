@@ -55,7 +55,7 @@ if (!isset($_GET['error'])) {
         <span class="text-danger d-flex justify-content-center p-1">Try clicking on logo</span>
 
         <h1 class="main-title gradient-border">
-          <span class="text-decoration-none text-white">Food Menu - Task 1: Lets Create</span>
+          <span class="text-decoration-none text-white">Food Menu</span>
         </h1>
 
         <?php if ($success == "inserted_payment") { ?>

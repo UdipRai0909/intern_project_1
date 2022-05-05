@@ -4,7 +4,6 @@ $css = '../q1/css/root1.css';
 require_once '../q1/php/includes/_main_head.php';
 ?>
 
-<!-- The text field -->
 <div class="container" id="question3">
   <div class="my_nav_logo">
     <a href="../">
@@ -13,7 +12,7 @@ require_once '../q1/php/includes/_main_head.php';
     <h2>Task 3: Lets Solve</h2>
   </div>
   <p id="msg">Double click to copy</p>
-  <button id="copy-btn" class="btn btn-copy-me" onclick="copyCode()">Copy code</button>
+  <button id="copy-btn2" class="btn btn-copy-me" onclick="copyCode2()">Copy code</button>
   <h1 class="btn-copy-me">Question</h1>
   <div class="row">
     <pre>
@@ -24,23 +23,25 @@ possible to begin his great work today. There are two ways he goes
 downstairs: walking or taking the elevator. When John uses the elevator, he
 will go through the following steps:</b>
 
-<b>1. Waiting the elevator from m floor to n floor;</b>
-1a. Or take the stairs to m floor;
+1. Waiting the elevator from m floor to n floor;
+   1a. Or take the stairs to m floor;
 2. Waiting the elevator open the door and go in;
 3. Waiting the elevator close the door;
 4. Waiting the elevator down to 0 floor;
 5. Waiting the elevator open the door and go out;
-(the time of go in/go out the elevator will be ignored)
+   (the time of go in/go out the elevator will be ignored)
 
 <b>Given the following arguments:</b>
 n: An integer. The floor of John(0-based).
 m: An integer. The floor of the elevator(0-based).
-speeds: An array of integer. It contains four integer [a,b,c,d]
+   speeds: An array of integer. 
+   It contains four integer [a,b,c,d]
 a: The seconds required when the elevator rises or falls 1 floor
 b: The seconds required when the elevator open the door
 c: The seconds required when the elevator close the door
 d: The seconds required when John walks to n-1 or n+1 floor
-Please help John to calculate the shortest time to go downstairs.
+
+<b>Please help John to calculate the shortest time to go downstairs.</b>
       </code>
     </pre>
     </p>
@@ -48,7 +49,7 @@ Please help John to calculate the shortest time to go downstairs.
   <h1 class="btn-copy-me">Answer</h1>
   <div class="row">
     <pre>
-      <code id="copy-code">
+      <code id="copy-code2">
 const findShortestTime = (n, m, speed) => {
   let walk, walkAndElevator, elevator;
   let mixedTime = [walk, walkAndElevator, elevator];
@@ -130,8 +131,5 @@ findShortestTime(7, 6, [3,1,1,4]);
 </pre>
   </div>
 </div>
-
-<!-- The button used to copy the text -->
-
 
 <?php require_once '../q1/php/includes/_main_foot.php'; ?>

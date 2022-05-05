@@ -11,7 +11,7 @@ require_once '../q1/php/includes/_main_head.php';
     </a>
     <h2>Task 2: Lets Debug</h2>
   </div>
-  <p id="msg">Double click to copy</p>
+  <p id="msg">Click 2 times if 1st time</p>
   <button id="copy-btn1" class="btn-copy-me" onclick="copyCode1()">Copy code</button>
   <h1 class="btn-copy-me">Question</h1>
   <div class="row">
@@ -22,7 +22,7 @@ team in IPL. He has an option to choose how he want to get
 paid. It could be weekly or monthly.
 
 10% of the total amount will be paid at the time of signing
-the contract and remaining will be paid trough installments.
+the contract and remaining will be paid through installments.
 The payment can be completed before the contract ends but
 cannot exceed more than contract period. Weekly payment can
 be multiple of 50 and monthly payment can be multiple of 100.
@@ -83,7 +83,7 @@ console.log(`===========================================\n`);
 console.log("Suppose the amount to be paid is 5000. Then,\n");
 console.log("10% of 5000 = 500 will be paid initially.\n");
 console.log("Remaining = 5000 - 500 = 4500\n");
-console.log("That amount will be paid like so:\n");
+console.log("That amount will be paid through installments like so:\n");
 
 console.log(`-------------------------------------------\n`);
 

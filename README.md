@@ -1,4 +1,4 @@
-## STEPS TO PRODUCE RESULT OF q1 IN LOCAL SERVER :
+## STEPS TO PRODUCE RESULT OF Question 1 IN LOCAL/DEVELOPMENT SERVER :
 
 1. Make sure you have the REQUIRED stuff/programs installed (given at the end).
 
@@ -21,7 +21,7 @@
 
    b. Adapt, Overcome, Improvise and try to debug yourself, King.
 
-## STEPS TO PRODUCE THE SAME RESULT IN DEVELOPMENT SERVER :
+## STEPS TO PRODUCE THE SAME RESULT IN PRODUCTION SERVER :
 
 1. Just visit this link below lol.
    Link: https://udip1.herokuapp.com/

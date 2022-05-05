@@ -11,7 +11,7 @@ require_once '../q1/php/includes/_main_head.php';
     </a>
     <h2>Task 3: Lets Solve</h2>
   </div>
-  <p id="msg">Double click to copy</p>
+  <p id="msg">Click 2 times if 1st time</p>
   <button id="copy-btn2" class="btn btn-copy-me" onclick="copyCode2()">Copy code</button>
   <h1 class="btn-copy-me">Question</h1>
   <div class="row">
